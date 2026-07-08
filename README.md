@@ -10,7 +10,12 @@ bypasses the physical pathway and concatenates at the Task Shared layer. Three i
 
 # Dataset
 All experiments use publicly available MoleculeNet datasets via the DeepChem library.
-|---------|-----------|----------|----------|--------|
+## Experimental Setup
+### Datasets
+We evaluate on all nine MoleculeNet [13] benchmarks:
+
+| Dataset | Task Type | #Samples | #Outputs | Metric |
+|:--------|:----------|:--------:|:--------:|:-------|
 | BBBP | Binary CLS | 2,039 | 1 | ROC-AUC |
 | BACE | Binary CLS | 1,513 | 1 | ROC-AUC |
 | ClinTox | Binary CLS | 1,478 | 2 | ROC-AUC |
