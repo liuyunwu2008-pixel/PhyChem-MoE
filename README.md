@@ -24,11 +24,11 @@ We evaluate on all nine MoleculeNet benchmarks:
 | QM7 | Regression | 6,830 | — | MAE |
 
 
-## 1. Installation Environment
+## Installation Environment
 pip install -r requirements.txt
 
-## 2. Train the Model 
+## Train the Model 
 python scripts/train.py --config configs/default.yaml
 
-## 3. Model Evaluation 
+## Model Evaluation 
 python scripts/evaluate.py --config configs/default.yaml --checkpoint outputs/best.pt
