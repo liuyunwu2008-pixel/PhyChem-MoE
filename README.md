@@ -22,3 +22,6 @@ We evaluate on all nine MoleculeNet benchmarks:
 | ESOL | Regression | 1,128 | — | RMSE |
 | Lipophilicity | Regression | 4,200 | — | RMSE |
 | QM7 | Regression | 6,830 | — | MAE |
+
+## Setup Environment
+pip install -r requirements.txt
