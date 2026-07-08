@@ -8,11 +8,8 @@ PhyChem-MoE  extracts four complementary views—equivariant geometry, persisten
 <p align="left"> Fig.1 **PhyChem-MoE architecture**. Four parallel feature pipelines (EGNN, PLS, MPH, ECFP) extract complementary molecular representations. Three physical modalities are aligned via MFA ( learned-query cross-attention and routed through per-modality MoE). ECFP 
 bypasses the physical pathway and concatenates at the Task Shared layer. Three independent model groups handle binary classification, multi-label classification, and regression. </p>
 
-# Dataset
-All experiments use publicly available MoleculeNet datasets via the DeepChem library.
-## Experimental Setup
-### Datasets
-We evaluate on all nine MoleculeNet [13] benchmarks:
+## Dataset
+We evaluate on all nine MoleculeNet benchmarks:
 
 | Dataset | Task Type | #Samples | #Outputs | Metric |
 |:--------|:----------|:--------:|:--------:|:-------|
