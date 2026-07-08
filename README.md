@@ -23,5 +23,12 @@ We evaluate on all nine MoleculeNet benchmarks:
 | Lipophilicity | Regression | 4,200 | — | RMSE |
 | QM7 | Regression | 6,830 | — | MAE |
 
-## Setup Environment
+
+## 1. Installation Environment
 pip install -r requirements.txt
+
+## 2. Train the Model 
+python scripts/train.py --config configs/default.yaml
+
+## 3. Model Evaluation 
+python scripts/evaluate.py --config configs/default.yaml --checkpoint outputs/best.pt
